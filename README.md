@@ -2,7 +2,7 @@
 Objektorienteeritud programmeerimine LTAT.03.003 1.rühmatöö 
 Autorid: Adele Tasa, Annabel Jürjenson
 
-**Projekti kirjeldus ja kasutusjuhend**\n
+**Projekti kirjeldus ja kasutusjuhend**
 Meie programmi eesmärk on pakkuda kasutajale interaktiivset ja lihtsat aktsiaturu simulatsiooni. Kasutaja saab proovida investeerimist virtuaalsetesse väärtpaberitesse, mille andmed loetakse sisse välisest tekstifailist. Kasutaja näeb, kuidas juhuslikud turumuutused mõjutavad portfelli väärtust ajas.
 
 1. Käivita programm ja vajuta tervitusaknas nuppu "Hakkame pihta".
