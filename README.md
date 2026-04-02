@@ -24,7 +24,7 @@ osta(int kogus, double hind) kontrollib, kas kulu vastab vaba raha jäägile ja 
 arvutaVäärtus(double hind) arvutab kogu vara väärtuse (vaba raha + aktsiate turuväärtus).
 
 Turu klass tegeleb turuliikumiste simuleerimisega.
-randomMuutus(double volatiilsus) kasutab klassi Random, et luua juhuslik protsentuaalne muutus negatiivsete ja positiivsete riskide vahel.
+randomMuutus(double volatiilsus) kasutab Random väärtust, et luua juhuslik protsentuaalne muutus negatiivsete ja positiivsete riskide vahel.
 
 Peaklass tegeleb sisendi/väljundi ja ka kasutajaliidesega (JOptionPane)
 laeAktsiad(String fail) loeb andmed tekstifailist aktsiad.txt ja loob Aktsia objektidele listi.
@@ -42,7 +42,7 @@ Annabel panustas lõppfaasis koodi lihvimisele ja meetodite optimeerimisele.
 Adele tegeles projekti dokumentatsiooniga ja kasutajaliidese dialoogakende (JOptionPane) viimistlemisele.
 
 **Tegemise mured**
-PEamine mure ei olnud koodi kirjutamine vaid meie kogemused koostöös. Me ei teadnud, et IntelliJ "Code With Me" funktsioon on olemas, millega on võimalus samaaegselt koodi kirjutada. Raiskasime aega failide käsitsi ZIP-arhiivina saatmisele.
+Peamine mure ei olnud koodi kirjutamine vaid meie kogemused koostöös. Me ei teadnud, et IntelliJ "Code With Me" funktsioon on olemas, millega on võimalus samaaegselt koodi kirjutada. Raiskasime aega failide käsitsi ZIP-arhiivina saatmisele.
 
 **Hinnang oma töö lõpptulemusele**
 Jäime lõpptulemusega rahule, sest programm täidab meie püstitatud eesmärgid ja on kasutaja jaoks lihtne kasutada. Saime hästi hakkama struktuuri loomisega, iga klass vastutab meie programmis kindla ülesande eest. Arenguruumi on veel palju, aga esimese rühmatöö jaoks tundub meile programm hea.
