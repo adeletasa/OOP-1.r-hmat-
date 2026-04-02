@@ -24,7 +24,7 @@ osta(int kogus, double hind) kontrollib, kas kulu vastab vaba raha jäägile ja 
 arvutaVäärtus(double hind) arvutab kogu vara väärtuse (vaba raha + aktsiate turuväärtus).
 
 Turu klass tegeleb turuliikumiste simuleerimisega.
-genereeriMuutus(double volatiilsus) kasutab klassi Random, et luua juhuslik protsentuaalne muutus negatiivsete ja positiivsete riskide vahel.
+randomMuutus(double volatiilsus) kasutab klassi Random, et luua juhuslik protsentuaalne muutus negatiivsete ja positiivsete riskide vahel.
 
 Peaklass tegeleb sisendi/väljundi ja ka kasutajaliidesega (JOptionPane)
 laeAktsiad(String fail) loeb andmed tekstifailist aktsiad.txt ja loob Aktsia objektidele listi.
