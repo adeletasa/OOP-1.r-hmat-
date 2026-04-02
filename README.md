@@ -36,10 +36,11 @@ Projekti alguses arutasime läbi, mis ideed meil on tekkinud ja valisime nende s
 Mõlemad kirjutasime oma versiooni programmist ning lõpuks panime need omavahel kokku parimaks tervikuks võttes mõlema algversioonist ideid. Annabeli algversioonist saime idee lugeda andmeid failist ja Adele algversioonist idee teha mitu erinevat investeerimisperioodide valikut.
 
 
-**Rühmaliikmete panused**
+**Rühmaliikmete panused ja ajakulu**
 Algfaasis planeerisime baasloogikat koos ja arutasime läbi klasside vahelised seosed. 
 Annabel panustas lõppfaasis koodi lihvimisele ja meetodite optimeerimisele.
 Adele tegeles projekti dokumentatsiooniga ja kasutajaliidese dialoogakende (JOptionPane) viimistlemisele.
+Iseseisvalt kirjutasime koodi 2-3h ning koos tehes tegime kokku lõplikku viimistlust 6h.
 
 **Tegemise mured**
 Peamine mure ei olnud koodi kirjutamine vaid meie kogemused koostöös. Me ei teadnud, et IntelliJ "Code With Me" funktsioon on olemas, millega on võimalus samaaegselt koodi kirjutada. Raiskasime aega failide käsitsi ZIP-arhiivina saatmisele.
