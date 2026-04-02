@@ -1,0 +1,34 @@
+Apple,175.25,0.04
+Microsoft,415.50,0.03
+Tesla,170.10,0.12
+Nvidia,875.40,0.15
+Amazon,180.10,0.06
+Google,150.30,0.05
+Meta,485.20,0.09
+Netflix,610.00,0.08
+LHV Grupp,3.58,0.02
+Tallink Grupp,0.72,0.03
+Enefit Green,3.15,0.025
+Tallinna Kaubamaja,10.20,0.015
+Coop Pank,2.45,0.035
+Ignitis Grupe,19.20,0.02
+Bitcoin (ETF),65000.0,0.25
+Ethereum (ETF),3500.0,0.30
+Dogecoin,0.15,0.50
+Moderna,110.0,0.18
+Pfizer,28.50,0.04
+Coca-Cola,60.20,0.02
+McDonalds,285.0,0.025
+Disney,115.0,0.05
+Visa,280.0,0.03
+JPMorgan Chase,195.0,0.04
+Exxon Mobil,115.0,0.07
+Brent Crude Oil,85.40,0.06
+Kuld (väärtpaber),2150.0,0.01
+Hõbe (väärtpaber),24.50,0.05
+GameStop,15.0,0.40
+AMC Entertainment,4.20,0.45
+Ferrari,390.0,0.05
+Porsche,90.50,0.06
+Spotify,260.0,0.10
+Adobe,520.0,0.07
