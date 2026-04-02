@@ -32,14 +32,17 @@ küsiNumbrit(...) kasutame numbriliste sisendi küsimiseks, sest see sisaldab ju
 
 
 **Protsessi tegemise kirjeldus**
-Meie kõigepealt koos rääkisime ideedest, mis meil olid tekkinud ning valisime välja sobiva, Aktsia simulaator. Seejärel me arutasime kuidas täpsemalt peaks meie programm töötama, et see ei oleks meie jaoks liiga keeruline ja mõtlesime, milliseid klasse meil oleks vaja. Mõlemad kirjutasime oma versiooni programmist ning lõpuks panime need omavahel kokku võttes mõlema algversioonist ideid. Näiteks Annabeli algversioonist saime idee lugeda aktsiaid failist ja Adelelt idee teha mitu erinevat perioodi investeerimiseks.
+Projekti alguses arutasime läbi, mis ideed meil on tekkinud ja valisime nende seast välja aktsia simulaatori. Seejärel arutasime, milliseid klasse on meil vaja ja, mis ülesehitus võiks programmil olla.
+Mõlemad kirjutasime oma versiooni programmist ning lõpuks panime need omavahel kokku parimaks tervikuks võttes mõlema algversioonist ideid. Annabeli algversioonist saime idee lugeda andmeid failist ja Adele algversioonist idee teha mitu erinevat investeerimisperioodide valikut.
 
 
 **Rühmaliikmete panused**
-Saime omavahel nii Deltas kokku kui ka tegime kodust läbi Discordi. 
+Algfaasis planeerisime baasloogikat koos ja arutasime läbi klasside vahelised seosed. 
+Annabel panustas lõppfaasis koodi lihvimisele ja meetodite optimeerimisele.
+Adele tegeles projekti dokumentatsiooniga ja kasutajaliidese dialoogakende (JOptionPane) viimistlemisele.
 
 **Tegemise mured**
-Raiskasime aega üksteisele ZIP failide saatmisega ning arvasime, et me ei saa Intellijis korraga koodi kirjutada. Tegime nii, et üks kirjutas ja jagas ekraani ning hiljem saatis teisele ZIP faili ja vastupidi. Saime alles lõpus teada, et on võimalik ka Intellijis koos teha.
+PEamine mure ei olnud koodi kirjutamine vaid meie kogemused koostöös. Me ei teadnud, et IntelliJ "Code With Me" funktsioon on olemas, millega on võimalus samaaegselt koodi kirjutada. Raiskasime aega failide käsitsi ZIP-arhiivina saatmisele.
 
 **Hinnang oma töö lõpptulemusele**
 Jäime lõpptulemusega rahule, sest programm täidab meie püstitatud eesmärgid ja on kasutaja jaoks lihtne kasutada. Saime hästi hakkama struktuuri loomisega, iga klass vastutab meie programmis kindla ülesande eest. Arenguruumi on veel palju, aga esimese rühmatöö jaoks tundub meile programm hea.
