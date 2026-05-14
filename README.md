@@ -41,3 +41,55 @@ Meetod 'randomMuutus(double volatiilsus)' loob juhusliku protsentuaalse muutuse 
 
 ### Launcher
 Launcher klassi eesmärk on programmi käivitamine. See käivitab JavaFX rakenduse.
+
+
+**Projekti tegemise protsessi kirjeldus**
+
+Alguses arutasime, kas jätkame sama teemaga nagu esimeses rühmatöös või valime täiesti uue teema. Lõpuks otsustasime jätkata aktsiaturu simulatsiooni ideega.
+Tegime IntelliJ-s uue projekti ning kopeerisime vajalikud klassid sinna üle. Seejärel muutsime klasside alguses olevad package read nii, et need asuksid paketis `com.example.ryhmatoo2`. Esimesena keskendusime sellele, et programmi põhiloogika töötaks uues projektis korrektselt.
+Seejärel hakkasime Peaklassis looma JavaFX kasutajaliidest. Alguses lisasime kõige olulisemad osad (tekstiväljad, aktsia valiku, nupud ja logiala). Esialgu tegime kujunduse väga lihtsana otse Peaklassis, et oleks lihtsam kontrollida, kas programm töötab. Hiljem otsustasime välimuse osa eraldi läbi mõelda ja tõsta kujunduse CSS-faili, et programmi loogika ja kasutajaliidese kujundus oleksid üksteisest paremini eraldatud.
+Lõpus lisasime ja kontrollisime veateateid, klaviatuurisündmusi, logi salvestamist ja laadimist. Kõige viimases etapis tegelesime vigade parandamisega, kujunduse lõpliku viimistlemisega ning kontrollisime üle, et failist lugemine ja faili kirjutamine töötaksid korrektselt.
+
+**Tehisintellekti kasutamise kirjeldus**
+Tehisintellekti kasutasime abivahendina peamiselt JavaFX kasutajaliidese ülesehituse parandamiseks, koodivigade leidmiseks ja meetodite ülesehituseks. Kõige lõpus viimistlesime peaklassi Gemini abil.
+
+**Rühmaliikmete panused ja ajakulu**
+
+Alguses me planeerisime üldist ideed koos. Mõlemad katsetasime erinevaid lahendusi ning lõpliku versiooni panime kokku mõlema ideedest.
+
+Annabel panustas peaklassi meetodite kirjutamisesse, kasutajaliidese viimistlemisse ja programmi loogika arendamisesse ning et erinevad programmi osad omavahel töötaksid.
+Adele panustas peaklassi meetodite kirjutamisesse, dokumentatsiooni koostamisse ja programmi testimisse, kontrollimisse, et nupud, sisendväljad, veateated ning logide salvestamine ja laadimine töötaksid. 
+
+Mõlemad rühmaliikmed panustasid projekti tegemisse ligikaudu võrdselt. Iseseisvalt kulus kummalgi umbes kaks kuni kolm tundi ning koos kulus meil arutamisele, parandamisele ja lõplikule viimistlusele umbes viis tundi.
+
+**Tegemise mured**
+
+Alguses tahtsime aktsiate andmeid võtta otse internetist web scraping’u abil, aga me ei osanud seda veel piisavalt hästi teha. See tundus meie jaoks üsna keeruline, eriti kuna samal ajal oli vaja tööle saada ka JavaFX kasutajaliides ja kogu programmi põhiloogika. Sellepärast otsustasime lõpuks teha kindlama lahenduse ja lugeda aktsiate andmed failist `aktsiad.txt`.
+
+Teine keerulisem osa oli JavaFX kasutajaliidese sidumine programmi loogikaga. Aega võttis see, et nupud, tekstiväljad, simulatsioon, veateated ning logi salvestamine ja laadimine töötaksid kõik omavahel õigesti.
+
+**Hinnang oma töö lõpptulemusele**
+
+Jäime lõpptulemusega rahule, sest saime programmi tööle ning kõik nõuded tunduvad täidetud. Programmil on JavaFX graafiline kasutajaliides, see reageerib nii hiire kui ka klaviatuuri sündmustele, loeb andmeid failist, kirjutab logi faili ning koosneb mitmest klassist.
+
+Hästi õnnestus programmi üldine ülesehitus ja see, et iga klass vastutab kindla osa eest. Arendamist vajaks tulevikus see, et kasutaja saaks ühe mängu jooksul müüa aktsiaid ja näha täpsemat statistikat.
+
+**Testimine**
+
+Testisime programmi nii osade kaupa kui ka tervikuna. Alamklasse me ei testinud, sest me ei muutnud neid välja arvatud Aktsia klass, sest meil oli seal hardcode'tud viga sees esimesest rühmatööst.
+
+Testisime järgmisi olukordi:
+1. kasutaja sisestab nime, algkapitali, tootluse ja koguse ning ostab aktsiaid.
+2. kasutaja proovib osta rohkem aktsiaid, kui raha võimaldab.
+3. kasutaja jätab nime sisestamata.
+4. kasutaja sisestab raha või tootluse asemele teksti.
+5. kasutaja proovib simuleerida enne aktsiate ostmist.
+6. kasutaja käivitab viie päeva simulatsiooni.
+7. kasutaja käivitab kolmekümne päeva simulatsiooni.
+8. logi salvestamine töötab nupuga 'Salvesta logi'.
+9. logi salvestamine töötab klahvikombinatsiooniga 'Ctrl+S'.
+10. logi laadimine töötab nupuga 'Laadi logi'.
+11. logi laadimine töötab klahvikombinatsiooniga 'Ctrl+L'.
+12. kontrollisime, et `aktsiad.txt` puudumisel annab programm kasutajale arusaadava teate.
+
+Veendusime, et programm töötab tavakasutuse korral korrektselt ja reageerib ka mitmele valele sisestusele mõistlikult.
