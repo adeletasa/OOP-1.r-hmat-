@@ -4,8 +4,8 @@ Autorid: Adele Tasa, Annabel Jürjenson
 
 **Projekti kirjeldus ja kasutusjuhend**
 
-Meie programmi eesmärk on pakkuda kasutajale kerget aktsiaturu simulatsiooni. Kasutaja saab kasutajaliideses sisestada oma nime, algakpitali ja soovitud eesmärgi (tootluse), valida nimekirjast soovitud aktsia ning osta soovi korral mitu aktsiat. Seejärel saab kasutaja valida, kas ta soovib viie või kolmekümne päevajooksul simuleerida aktsiahinna muutmist. Programm näitab iga päeva kohta aktsia hinda, kasutaja portfelli väärtust, muutust alates investeerimise algusest ja tootlust protsentides ning lõpus annab teada, kas soovitud eesmärk sai täidetud.
-Aktsiate andmed loetakse failist `aktsiad.txt`. Mängu käiku on võimalik salvestada logifaili `mangu_logi.txt` ning hiljem uuesti laadida.
+Meie programmi eesmärk on pakkuda kasutajale kerget aktsiaturu simulatsiooni. Kasutaja saab kasutajaliideses sisestada oma nime, algakpitali ja soovitud eesmärgi (tootluse), valida nimekirjast soovitud aktsia ning osta soovi korral mitu aktsiat. Seejärel saab kasutaja valida, kas ta soovib viie või kolmekümne päeva jooksul simuleerida aktsiahinna muutmist. Programm näitab iga päeva kohta aktsia hinda, kasutaja portfelli väärtust, muutust alates investeerimise algusest ja tootlust protsentides ning lõpus annab teada, kas soovitud eesmärk sai täidetud.
+Aktsiate andmed loetakse failist `aktsiad.txt`. Mängu käiku on võimalik salvestada logifaili `logi.txt` ning hiljem uuesti laadida.
 
 1. Käivita programm peaklassis.
 2. Sisesta oma nimi, algkapital ja soovitud tootlus.
@@ -19,7 +19,7 @@ Aktsiate andmed loetakse failist `aktsiad.txt`. Mängu käiku on võimalik salve
 
 **Klasside eesmärgid ja olulisemad meetodid**
 
-Meil on kokku põhiliselt neli klassi: Aktsia, Peaklass, Portfell ja Turu.
+Meil on kokku põhiliselt need klassid: Aktsia, Peaklass, Portfell ja Turu.
 
 ### Aktsia
 Aktsia klass hoiab ühe väärtpaberi andmeid (nimi, hind ja volatiilsust). 
@@ -82,7 +82,7 @@ Hästi õnnestus programmi üldine ülesehitus ja see, et iga klass vastutab kin
 
 **Testimine**
 
-Testisime programmi nii osade kaupa kui ka tervikuna. Alamklasse me ei testinud, sest me ei muutnud neid välja arvatud Aktsia klass, sest meil oli seal hardcode'tud viga sees esimesest rühmatööst.
+Testisime programmi nii osade kaupa kui ka tervikuna. Abiklasse me ei testinud, sest me ei muutnud neid välja arvatud Aktsia klass, sest meil oli seal hardcode'tud viga sees esimesest rühmatööst.
 
 Testisime järgmisi olukordi:
 1. kasutaja sisestab nime, algkapitali, tootluse ja koguse ning ostab aktsiaid.
@@ -96,6 +96,6 @@ Testisime järgmisi olukordi:
 9. logi salvestamine töötab klahvikombinatsiooniga `Ctrl+S`.
 10. logi laadimine töötab nupuga `Laadi logi`.
 11. logi laadimine töötab klahvikombinatsiooniga `Ctrl+L`.
-12. kontrollisime, et `aktsiad.txt` puudumisel annab programm kasutajale arusaadava teate.
+12. kontrollisime, mis juhtub siis, kui `aktsiad.txt` puudub või failis on vale andmevorming.
 
 Veendusime, et programm töötab tavakasutuse korral korrektselt ja reageerib ka mitmele valele sisestusele mõistlikult.
