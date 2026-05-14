@@ -2,6 +2,7 @@ public class Aktsia {
     private String nimi;
     private double hind;
     private double volatiilsus;
+    private static final double MIN_HIND = 0.01; //muudetud ära hardcode'itud number
 
     public Aktsia(String nimi, double hind, double volatiilsus) {
         this.nimi = nimi;
@@ -13,7 +14,9 @@ public class Aktsia {
         // arvutame uue hinna
         this.hind = this.hind * (1 + muutusProtsent);
         // aktsia ei saa maksta vähem kui 1 sent
-        if (this.hind < 0.01) this.hind = 0.01;
+        if (this.hind < MIN_HIND) {
+            this.hind = MIN_HIND;
+        }
     }
 
     public String getNimi() {
