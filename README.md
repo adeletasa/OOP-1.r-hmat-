@@ -25,10 +25,16 @@ Meil on kokku põhiliselt neli klassi: Aktsia, Peaklass, Portfell ja Turu.
 Aktsia klass hoiab ühe väärtpaberi andmeid (nimi, hind ja volatiilsust). 
 Meetod `uuendaHinda(double muutusProtsent)` arvutab aktsiale uue hinna. Meetod tagab, et turuhind ei langeks alla ühe sendi.
 
-### Peaklass TODO
-Peaklass loob JavaFX graafilise kasutajaliidese ja seob ülejäänud klassid tervikuks. Selles klassis toimub kasutaja sisendi lugemine, nuppudele reageerimine, simultasiooni käivitamine, logi kuvamine ja failidega töötamine. Programm loeb aktsiate andmed failist `aktsiad.txt` ja salvestab mängu käigu faili `mangu_logi.txt`
-Meetod `start(Stage lava)` loob programmi akna ja kasutajaliidese.
-**LISADA MEETODEID VEEL**
+### Peaklass
+
+Peaklass on programmi põhiline klass, kus luuakse JavaFX kasutajaliides ja pannakse ülejäänud klassid koos tööle. Siin toimub kasutaja sisendi lugemine, aktsiate ostmine, simulatsiooni käivitamine, logi kuvamine ning faili lugemine ja kirjutamine. Aktsiate andmed loetakse failist `aktsiad.txt` ja mängu logi salvestatakse faili `logi.txt`.
+
+Meetod `start(Stage lava)` loob programmi akna, kasutajaliidese elemendid ja määrab nuppude tegevused.
+Meetod `laeAktsiad(String f)`loeb aktsiate andmed failist ja loob nende põhjal Aktsia objektid.
+Meetod `alustaSimulatsiooni(...)` kontrollib, kas kasutaja on aktsiaid ostnud, ning käivitab simulatsiooni.
+Meetod `Simuleeri(...)` muudab aktsia hinda valitud päevade jooksul ja lisab tulemused logisse.
+Meetod `salvestaFaili()`salvestab mängu logi faili `logi.txt`.
+Meetod `loeFailist()`loeb varem salvestatud logi failist `logi.txt`.
 
 ### Portfell
 Portfell klass haldab mängija raha ja ostetud aktsiate arvu. 
